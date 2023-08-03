@@ -1,12 +1,43 @@
-import React, { useState } from 'react';
-import Welcome from './components/Welcome';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import './App.css';
 
-function App() {
-  // Here we declare a state boolean variable "loggedIn" and a function to update it.
-  const [loggedIn, setLoggedIn] = useState(false);
+const Welcome = () => {
+  return (
+    <div className="welcome-page">
+      <h1>Welcome to My Portfolio</h1>
+      <div className="buttons">
+        <Link to="/portfolio" className="btn btn-primary">
+          Portfolio
+        </Link>
+        <Link to="/contact" className="btn btn-primary">
+          Contact Me
+        </Link>
+        <Link to="/resume" className="btn btn-primary">
+          Resume
+        </Link>
+      </div>
+    </div>
+  );
+};
 
-  // We return the Welcome component and pass loggedIn and setLoggedIn as props.
-  return <Welcome loggedIn={loggedIn} setLoggedIn={setLoggedIn} />;
-}
+const App = () => {
+  return (
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Welcome />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+};
 
 export default App;
