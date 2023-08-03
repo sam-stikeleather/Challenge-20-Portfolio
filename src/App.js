@@ -4,26 +4,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Welcome from './components/Welcome';
 import './App.css';
 
-const Welcome = () => {
-  return (
-    <div className="welcome-page">
-      <h1>Welcome to My Portfolio</h1>
-      <div className="buttons">
-        <Link to="/portfolio" className="btn btn-primary">
-          Portfolio
-        </Link>
-        <Link to="/contact" className="btn btn-primary">
-          Contact Me
-        </Link>
-        <Link to="/resume" className="btn btn-primary">
-          Resume
-        </Link>
-      </div>
-    </div>
-  );
-};
 
 const App = () => {
   return (

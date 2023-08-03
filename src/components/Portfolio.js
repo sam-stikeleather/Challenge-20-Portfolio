@@ -1,7 +1,13 @@
 import React from 'react';
+import Header from '../components/Header';
 
 const Portfolio = () => {
-  return <h1>Portfolio Page</h1>;
+  return (
+  <div>
+    <Header page="portfolio" />
+    {/* content */}
+</div>
+);
 };
 
 export default Portfolio;
