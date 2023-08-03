@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
   <div>
     <Header page="portfolio" />
-    {/* content */}
+    <h1>Portfolio</h1>
 </div>
 );
 };

@@ -10,26 +10,26 @@ const Header = ({ page }) => {
 
   return (
     <header className="navbar navbar-light bg-light">
-    <div className="container">
-      <div className="navbar-brand">My Portfolio</div>
-      <ul className="navbar-nav">
-        {page !== 'welcome' && ( // Only show Home button if not on the Home page
-          <li className="nav-item">
-            <Link to="/" className="nav-link">
-              Home
-            </Link>
-          </li>
-        )}
-        {links.map((link) => (
-          <li className="nav-item" key={link.to}>
-            <Link to={link.to} className="nav-link">
-              {link.label}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  </header>
+      <div className="container">
+        <div className="navbar-brand">Samuel N Stikeleather</div>
+        <ul className="navbar-nav ml-auto"> 
+          {page !== 'welcome' && ( // Only show Home button if not on the Home page
+            <li className="nav-item">
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
+            </li>
+          )}
+          {links.map((link) => (
+            <li className="nav-item" key={link.to}>
+              <Link to={link.to} className="nav-link">
+                {link.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </header>
 );
 };
 

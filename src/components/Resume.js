@@ -6,7 +6,7 @@ const Resume = () => {
     <div>
       <Header page="resume" />
       {/* content */}
-      <h1>Resume Page</h1>
+      <h1>Resume</h1>
     </div>
   );
 };

@@ -6,9 +6,8 @@ const Welcome = () => {
     <div>
       <Header page="welcome" />
       <div className="welcome-page">
-        <h1>Thank you for coming</h1>
+        <h1>About Me</h1>
         <div className="buttons">
-          {/* Buttons for Portfolio, Contact, and Resume */}
         </div>
       </div>
     </div>
