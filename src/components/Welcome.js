@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from '../components/Header'; // Adjust the path based on your file structure
+import Footer from '../components/Footer'; // Adjust the path based on your file structure
+
 
 const Welcome = () => {
   return (
@@ -10,6 +12,7 @@ const Welcome = () => {
         <div className="buttons">
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

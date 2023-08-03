@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from '../components/Header';
 import ContactForm from '../components/ContactForm';
+import Footer from '../components/Footer'; // Adjust the path based on your file structure
+
 
 const Contact = () => {
   return (
@@ -10,6 +12,7 @@ const Contact = () => {
     <h1>Contact Me</h1>
     <ContactForm />
     </div>
+    <Footer />
   </div>
   );
 };
