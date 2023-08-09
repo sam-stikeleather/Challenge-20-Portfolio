@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -9,16 +11,14 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary btn-social-icon"
-        >
-          <i className="fab fa-github"></i>
+        ><FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
         <a
           href="https://www.linkedin.com/in/samuel-stikeleather-3967a816/"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary btn-social-icon"
-        >
-          <i className="fab fa-linkedin"></i>
+        ><FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
       </div>
     </footer>
