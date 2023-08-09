@@ -1,14 +1,17 @@
 import React from 'react';
 
-const PortfolioCard = ({ title, description, imageUrl, link }) => {
+const PortfolioCard = ({ title, description, imageUrl, projectLink, githubLink }) => {
   return (
-    <div className="card">
-      <img src={imageUrl} className="card-img-top" alt={title} />
+    <div className="portfolio-cards">
+      {/* <img src={imageUrl} className="card-img-top" alt={title} /> */}
       <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{description}</p>
-        <a href={link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+        <h5 className="portfolio-card-title">{title}</h5>
+        <p className="portfolio-card-description">{description}</p>
+        <a href={projectLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
           View Project
+        </a>
+        <a href={githubLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+            View Reopository
         </a>
       </div>
     </div>

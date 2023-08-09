@@ -8,43 +8,49 @@ const Portfolio = () => {
   return (
   <div>
     <Header page="portfolio" />
-    <h1>Portfolio</h1>
+    <h2>Portfolio</h2>
     <div className="portfolio-cards">
       <PortfolioCard 
-      title="Project 1"
-      description="Description of Project 1."
+      title="HowRUFeeling"
+      description="Jounrnaling and mental health self help application."
       imageUrl="url-to-image-1.jpg"
-      link="https://project1-link.com"
+      projectLink="https://abisinchan.github.io/verbose-potato/index.html"
+      githubLink="https://github.com/abisinchan/verbose-potato"
       />
       <PortfolioCard 
-      title="Project 1"
-      description="Description of Project 1."
+      title="Movies Are Us"
+      description="Database application to track the movies you have seen."
       imageUrl="url-to-image-1.jpg"
-      link="https://project1-link.com"
+      projectLink="https://arcane-everglades-12126-c502ea749e86.herokuapp.com/"
+      githubLink="https://github.com/sam-stikeleather/Movies-Are-Us"
       />
       <PortfolioCard 
-      title="Project 1"
-      description="Description of Project 1."
+      title="Note Taker"
+      description="Simple note taking application."
       imageUrl="url-to-image-1.jpg"
-      link="https://project1-link.com"
+      projectLink="https://intense-brook-44275-77c54ae7fa56.herokuapp.com/"
+      githubLink="https://github.com/sam-stikeleather/Challenge-11-Notes"
       />
       <PortfolioCard 
-      title="Project 1"
-      description="Description of Project 1."
+      title="Employee Tracking App"
+      description="Employee database tracking application."
       imageUrl="url-to-image-1.jpg"
-      link="https://project1-link.com"
+      projectLink="https://drive.google.com/file/d/1-KPDHpINgnz6Y1BHDLmlUeEF3BWUaMxs/view"
+      githubLink="https://github.com/sam-stikeleather/Challenge-12-Tracker"
       />
       <PortfolioCard 
-      title="Project 1"
-      description="Description of Project 1."
+      title="9-5 Day Planner"
+      description="Simple realtime, workday planner."
       imageUrl="url-to-image-1.jpg"
-      link="https://project1-link.com"
+      projectLink="https://sam-stikeleather.github.io/Challenge-5-Planner/"
+      githubLink="https://github.com/sam-stikeleather/Challenge-5-Planner"
       />
       <PortfolioCard 
-      title="Project 1"
-      description="Description of Project 1."
+      title="ReadMe Generator"
+      description="Console driven README generator."
       imageUrl="url-to-image-1.jpg"
-      link="https://project1-link.com"
+      projectLink="https://drive.google.com/file/d/1bqkP9jRjquXQ6cvE-eN2xcd8I4MFfU-5/view"
+      githubLink="https://github.com/sam-stikeleather/Challenge-9-README"
       />
     </div>
     <Footer />
