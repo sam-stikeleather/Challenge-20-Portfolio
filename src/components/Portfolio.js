@@ -8,7 +8,7 @@ const Portfolio = () => {
   return (
   <div>
     <Header page="portfolio" />
-    <h2>Portfolio</h2>
+    <h1>Portfolio</h1>
     <div className="portfolio-cards">
       <PortfolioCard 
       title="HowRUFeeling"

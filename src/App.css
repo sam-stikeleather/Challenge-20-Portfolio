@@ -1,10 +1,13 @@
-
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
 .navbar-nav {
     display: flex;
     align-items: center;
   }
 
+h1 {
+  font-family:'Anton', serif;
+}  
   .header {
     background-color: #333;
     color: #fff;
