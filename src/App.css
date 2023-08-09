@@ -5,6 +5,22 @@
     align-items: center;
   }
 
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    /* Other header styles */
+  }
+  
+  .header-photo {
+    text-align: center; /* Center the photo horizontally */
+    margin-bottom: 20px; /* Add spacing between photo and other content */
+  }
+  
+  .header-photo img {
+    max-width: 100px; /* Ensure the image doesn't exceed the container width */
+  }
+
 
 .portfolio-card-container {
   display: flex;
@@ -35,8 +51,8 @@
 }
 
 .btn {
-  background-color: green;
-  border-color: green;
+  background-color: darkgreen;
+  border-color: gray;
 }
 
 
