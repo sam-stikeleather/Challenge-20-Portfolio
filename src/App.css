@@ -148,3 +148,14 @@ li {
 ul {
   list-style: none;
 }
+
+.aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.aside img {
+  max-width: 300px;
+}
