@@ -1,16 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 
+body {
+  background-color: #333;
+}
+
 .navbar-nav {
     display: flex;
     align-items: center;
+  }
+
+  .navbar-brand {
+    font-family: 'Anton', serif;
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .nav-link {
+    font-family: 'Anton', serif;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  .nav-link:hover {
+    color: orange;
   }
 
 h1 {
   font-family:'Anton', serif;
   text-align: center;
   margin: 0;
+  color: whitesmoke;
+
 }  
 
+p {
+  color: whitesmoke;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .row{
   display: flex;
   justify-content: center;
@@ -20,16 +51,15 @@ h1 {
     background-color: #333;
     color: #fff;
     padding: 20px;
-    /* Other header styles */
   }
   
   .header-photo {
-    text-align: center; /* Center the photo horizontally */
-    margin-bottom: 20px; /* Add spacing between photo and other content */
+    text-align: center; 
+    margin-bottom: 20px; 
   }
   
   .header-photo img {
-    max-width: 100px; /* Ensure the image doesn't exceed the container width */
+    max-width: 100px; 
   }
 
 
@@ -42,7 +72,6 @@ h1 {
 
 .portfolio-cards {
   width: 100%; 
-  background-color: whitesmoke;
   padding: 20px;
   border-radius: 9px;
   display: flex;
@@ -52,21 +81,31 @@ h1 {
 .portfolio-card-title {
   font-size: 18px;
   font-weight: bold;
-  color: black;
+  color: whitesmoke;
   justify-content: center;
   text-align: center;
 }
 
 .portfolio-card-description {
   margin-top: 10px;
-  color: black;
+  color: whitesmoke;
   text-align: center ;
 
 }
 
 .btn {
   background-color: darkgreen;
-  border-color: gray;
+  border-color: black;
+  color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+}
+
+.btn:hover {
+  background-color: orange;
+  border-color: black;
 }
 
 .button {
@@ -74,4 +113,38 @@ h1 {
   justify-content: center;
   padding: 10px;
   margin: 10px;
+}
+
+
+.container {
+  background-color: #333;
+  width: 100%;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.resume img {
+  max-width: 100px;
+
+}
+
+.resume img:hover {
+  max-width: 100px;
+  opacity: 0.5;
+}
+
+li {
+  color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
 }

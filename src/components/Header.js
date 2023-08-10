@@ -9,14 +9,16 @@ const Header = ({ page }) => {
 ].filter((link) => link.to !== `/${page}`);
 
   return (
-    <header className="navbar navbar-light bg-light">
+    <header className="navbar">
       <div className="container">
         {page !== 'welcome' && (
         <div className="header-photo">
           <img src="/headshot.png" alt="headshot"/>
         </div>
         )}
-        <div className="navbar-brand">Samuel N Stikeleather</div>
+        <div className="navbar-brand">
+          <h1>Samuel N Stikeleather</h1>
+        </div>
         <ul className="navbar-nav ml-auto"> 
           {page !== 'welcome' && ( // Only show Home button if not on the Home page
             <li className="nav-item">
