@@ -7,12 +7,14 @@ const PortfolioCard = ({ title, description, imageUrl, projectLink, githubLink }
       <div className="card-body">
         <h5 className="portfolio-card-title">{title}</h5>
         <p className="portfolio-card-description">{description}</p>
+        <div className="button">
         <a href={projectLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
           View Project
         </a>
         <a href={githubLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
             View Reopository
         </a>
+        </div>
       </div>
     </div>
   );

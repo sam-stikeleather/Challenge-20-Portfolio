@@ -7,7 +7,12 @@ const Resume = () => {
   return (
     <div>
       <Header page="resume" />
+      <div className="row">
       <h1>Resume</h1>
+      </div>
+      <div>
+        <img src="/resume.png" alt="resume" />
+      </div>
       <Footer />
     </div>
   );
