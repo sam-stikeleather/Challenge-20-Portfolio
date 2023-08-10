@@ -7,6 +7,8 @@ const ContactForm = () => {
     message: '',
   });
 
+  const [emailError, setEmailError] = useState('');
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -14,8 +16,22 @@ const ContactForm = () => {
     });
   };
 
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Validate email
+    if (!validateEmail(formData.email)) {
+      setEmailError('Please enter a valid email address');
+      return;
+    } else {
+      setEmailError('');
+    }
+
     // Save the form data to local storage or perform any other action
     console.log(formData);
   };
@@ -43,10 +59,11 @@ const ContactForm = () => {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          className="form-control"
+          className={`form-control ${emailError ? 'is-invalid' : ''}`}
           required
           placeholder="Email"
         />
+        {emailError && <div className="invalid-feedback">{emailError}</div>}
       </div>
       <div className="form-group">
         <label htmlFor="message"></label>
