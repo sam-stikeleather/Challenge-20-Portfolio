@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/challenge-20-portfolio/static/css/main.04fd0fce.css",
-    "main.js": "/challenge-20-portfolio/static/js/main.0866a9fe.js",
-    "index.html": "/challenge-20-portfolio/index.html",
-    "main.04fd0fce.css.map": "/challenge-20-portfolio/static/css/main.04fd0fce.css.map",
-    "main.0866a9fe.js.map": "/challenge-20-portfolio/static/js/main.0866a9fe.js.map"
+    "main.css": "/Challenge-20-Portfolio/static/css/main.04fd0fce.css",
+    "main.js": "/Challenge-20-Portfolio/static/js/main.0866a9fe.js",
+    "index.html": "/Challenge-20-Portfolio/index.html",
+    "main.04fd0fce.css.map": "/Challenge-20-Portfolio/static/css/main.04fd0fce.css.map",
+    "main.0866a9fe.js.map": "/Challenge-20-Portfolio/static/js/main.0866a9fe.js.map"
   },
   "entrypoints": [
     "static/css/main.04fd0fce.css",
