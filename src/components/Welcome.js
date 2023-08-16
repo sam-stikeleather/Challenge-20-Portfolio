@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header'; // Adjust the path based on your file structure
 import Footer from '../components/Footer'; // Adjust the path based on your file structure
-
+import Headshot from '../assets/headshot2.png';
 
 const Welcome = () => {
   return (
@@ -15,7 +15,7 @@ const Welcome = () => {
           a Full Stack Web Development Certification holder as of 2023. I am proficient in HTML, CSS, JavaScript, Node.js, Express.js, React.js, and MongoDB.
         </p>
         <aside className="aside">
-          <img src="/headshot2.png" alt="Profile" />
+          <img src={Headshot} alt="Profile" />
         </aside>
       </div>
       <Footer />

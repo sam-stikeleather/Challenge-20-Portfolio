@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer'; // Adjust the path based on your file structure
+import ResumePic from '../assets/resume.png';
 
 const Resume = () => {
   const downloadResume = () => {
@@ -40,7 +41,7 @@ const Resume = () => {
       </div>
       <div className="resume">
         <a href="https://drive.google.com/file/d/1j__0panCJrspkRQcSfb3cLAFXo-icvhd/view?usp=sharing" target="_blank" rel="noreferrer">
-        <img src="/resume.png" alt="resume" />
+        <img src={ResumePic} alt="resume" />
         </a>
       </div>
       <div className="row">

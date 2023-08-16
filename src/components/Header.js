@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Headshot2 from '../assets/headshot.png';
 
 const Header = ({ page }) => {
   const links = [
@@ -13,7 +14,7 @@ const Header = ({ page }) => {
       <div className="container">
         {page !== 'welcome' && (
         <div className="header-photo">
-          <img src="/headshot.png" alt="headshot"/>
+          <img src={Headshot2} alt="headshot"/>
         </div>
         )}
         <div className="navbar-brand">
