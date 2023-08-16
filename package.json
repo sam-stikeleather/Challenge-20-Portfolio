@@ -24,7 +24,7 @@
   "homepage": "https://sam-stikeleather.github.io/Challenge-20-Portfolio/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
