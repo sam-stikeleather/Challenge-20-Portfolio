@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/Challenge-20-Portfolio/static/css/main.04fd0fce.css",
-    "main.js": "/Challenge-20-Portfolio/static/js/main.b5f2c690.js",
+    "main.js": "/Challenge-20-Portfolio/static/js/main.ae36df70.js",
+    "static/media/headshot2.png": "/Challenge-20-Portfolio/static/media/headshot2.a3759369a6a70eb6644b.png",
+    "static/media/resume.png": "/Challenge-20-Portfolio/static/media/resume.7af9e0477880635c7e9a.png",
+    "static/media/headshot.png": "/Challenge-20-Portfolio/static/media/headshot.de769a5ecfb4338435bf.png",
     "index.html": "/Challenge-20-Portfolio/index.html",
     "main.04fd0fce.css.map": "/Challenge-20-Portfolio/static/css/main.04fd0fce.css.map",
-    "main.b5f2c690.js.map": "/Challenge-20-Portfolio/static/js/main.b5f2c690.js.map"
+    "main.ae36df70.js.map": "/Challenge-20-Portfolio/static/js/main.ae36df70.js.map"
   },
   "entrypoints": [
     "static/css/main.04fd0fce.css",
-    "static/js/main.b5f2c690.js"
+    "static/js/main.ae36df70.js"
   ]
 }
